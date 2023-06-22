@@ -1,3 +1,12 @@
+`22/06/2023`
+<details>
+  <summary>Use [nvm-windows](https://github.com/coreybutler/nvm-windows) to install Node Version for Window 10</summary>
+
+  - `nvm install latest` to install latest node version.
+  - `nvm install <version>` to install specified version.
+  - `nvm use <version>` switch to use the specified version.
+</details>
+
 `21/06/2023`
 <details>
   <summary>I can use `details` tag to collapse contents in markdown</summary>
