@@ -7,6 +7,41 @@
   - `nvm use <version>` switch to use the specified version.
 </details>
 
+<details>
+  <summary>When use Object.assign in Typescript. Typescript parsed type for object</summary>
+
+  ```
+  import * as React from 'react';
+
+  // React.ForwardRefExoticComponent<React.RefAttributes<unknown>>
+  export const Modal = React.forwardRef(() => { 
+    return <div>Modal here</div>;
+  });
+
+  // () => React.JSX.Element
+  const ModalTitle = () => {
+    return <span>Modal title here</span>;
+  };
+
+  // React.ForwardRefExoticComponent<React.RefAttributes<unknown>> & {
+  //  Title: () => React.JSX.Element;
+  // }
+  export const AppModal = Object.assign(Modal, {
+    Title: ModalTitle,
+  });
+  ```
+</details>
+
+<details>
+  <summary>`Modal.Title` is called `Compound Component`</summary>
+
+  ```
+  <Modal>
+    <Modal.Title>Title here</Modal.Title>
+  </Modal>
+  ```
+</details>
+
 `21/06/2023`
 <details>
   <summary>I can use `details` tag to collapse contents in markdown</summary>
