@@ -1,4 +1,29 @@
+`23/06/2023`
+<details>
+  <summary>To print a PDF a solution is: Frontend call API -> Backend will get data, file template html -> Another Server run browser with Solidjs (or another framework) to render content with this data and template.</summary>
+</details>
+
+<details>
+  <summary>I'm always thought someone else's flow code previous is good. So I try convert it and without believe in my code. `Solution`: Believe my code, if resolve problem, it's well.</summary>
+</details>
+
+<details>
+  <summary>Remmember domain bussiness is really hard with me.</summary>
+
+  - I'm focusing code logic and skip domain bussiness. `Solution`: Understand domain bussiness and temporarily ignore logic code. Back to think logic code after.
+</details>
+
 `22/06/2023`
+<details>
+  <summary>Use `Ctr + Shift + c` in Window to open new terminal outsite VS Code</summary>
+
+  - Run project in terminal outsite to avoid VS Code crash -> project break down.
+</details>
+
+<details>
+  <summary>One-Way binding and Two-Way binding in React (Updating...)</summary>
+  
+</details>
 <details>
   <summary>Use [nvm-windows](https://github.com/coreybutler/nvm-windows) to install Node Version for Window 10</summary>
 
