@@ -1,6 +1,9 @@
 `23/06/2023`
 <details>
-  <summary>To print a PDF a solution is: Frontend call API -> Backend will get data, file template html -> Another Server run browser with Solidjs (or another framework) to render content with this data and template.</summary>
+  <summary>To print a PDF a solution is: Frontend call API -> Backend will get data, file template html -> Another Server run browser with SolidJS (or another framework,..etc to create a web page) to render content with this data and template.</summary>
+
+- Use headless browser such as `puppeteer` to access this web page to render file PDF from page in Printer Server.
+- Send this file for Main Server and return this resource for user.
 </details>
 
 <details>
