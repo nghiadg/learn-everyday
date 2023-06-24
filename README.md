@@ -1,3 +1,28 @@
+`24/06/2023`
+<details>
+  <summary>The Javascript `Number` is a `double precision 64 bits format IEEE 754`. I will explain why 0.2 + 0.1 not equal 0.3</summary>
+
+  ## Why 0.2 + 0.1 not equal 0.3 in Javascript?
+  ### What is IEEE 754?
+  #### What is `sign` bit?
+ `sign bit` is the first bit of the binary representation. `sign` bit define the number is positive or negative. If `0` the number is positve and `1` is negative. Default is IEEE 754 64 bits is `0`.
+  `sign` have `1 bit`.
+  
+  <em>Read more: https://c-for-dummies.com/blog/?p=4685</em>
+  #### What is `exponent` bits?
+  The number in scientific notation is $Number = (-1)^{sign}.mantissa * 2^{exponent}$ in binary
+  
+  Understand simply `Exponent bits` to define where is `.` position at `mantissa`. Let explain it.
+
+  Look at the number $1.23 * 10^{-3}$ in decimal. It equal `0.00123`. In this example. 1.23 is `mantissa` and -3 is `exponent`. The same is true with binary number.
+ ....Updating
+  
+  
+  
+  
+  
+</details>
+
 `23/06/2023`
 <details>
   <summary>To print a PDF a solution is: Frontend call API -> Backend will get data, file template html -> Another Server run browser with SolidJS (or another framework,..etc to create a web page) to render content with this data and template.</summary>
