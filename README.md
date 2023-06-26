@@ -1,7 +1,7 @@
 `25/06/2023`
 
 <details>
-  <summary>Bach Mai Hospital don't allow guests use motorbike enter by main gate. Instead of, enter by gate 3 or 4.</summary>
+  <summary>Bach Mai Hospital don't allow guests use motorbike enter by main gate. Instead of, enter by gate 3 or 4 in Phương Mai street.</summary>
 </details>
 
 `24/06/2023`
