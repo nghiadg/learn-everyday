@@ -2,10 +2,6 @@
 <details>
   <summary>The Javascript `Number` is a `double precision 64 bits format IEEE 754`. I will explain why 0.2 + 0.1 not equal 0.3</summary>
 
-  References:
-
-  (https://mathcenter.oxford.emory.edu/site/cs170/ieee754/#:~:text=The%20sum%20of%20the%20bias,power%20%3D%20exponent%2Dbias))
-
   ## Why 0.2 + 0.1 not equal 0.3 in Javascript?
   ### What is IEEE 754?
   #### What is `sign` bit?
@@ -97,6 +93,11 @@ The actual value is stored is $1 * 2^-4 * (1 + 2^{-1} + 2^{-4} + 2^{-5} + 2^{-8}
 
 So `0.1` is stored < `0.1` 
 
+
+  References:
+
+  - https://mathcenter.oxford.emory.edu/site/cs170/ieee754/#:~:text=The%20sum%20of%20the%20bias,power%20%3D%20exponent%2Dbias
+
 </details>
 
 `23/06/2023`
@@ -105,6 +106,8 @@ So `0.1` is stored < `0.1`
 
 - Use headless browser such as `puppeteer` to access this web page to render file PDF from page in Printer Server.
 - Send this file for Main Server and return this resource for user.
+
+References: https://medium.com/compass-true-north/go-service-to-convert-web-pages-to-pdf-using-headless-chrome-5fd9ffbae1af
 </details>
 
 <details>
