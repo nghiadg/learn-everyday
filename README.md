@@ -1,3 +1,13 @@
+`27/06/2023`
+
+<details>
+  <summary>To call API when close tab or page, use fetch with `keepalive` in `beforeunload` event. But can't use await to get data then call another fetch. </summary>
+
+  References:
+
+  - https://developer.chrome.com/blog/chrome-80-deps-rems/#disallow-synchronous-xmlhttprequest-in-page-dismissal
+</details>
+
 `25/06/2023`
 
 <details>
