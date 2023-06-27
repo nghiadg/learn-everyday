@@ -1,11 +1,11 @@
 `27/06/2023`
 
 <details>
-  <summary>To call API when close tab or page, use fetch with `keepalive` in `beforeunload` event. But can't use await to get data then call another fetch. </summary>
+  <summary>When using fetch to call API. Fetch promise does not reject on HTTP errors (404, ...etc). Instead, a then handler must check Response.ok and/or Response.status.</summary>
 
   References:
 
-  - https://developer.chrome.com/blog/chrome-80-deps-rems/#disallow-synchronous-xmlhttprequest-in-page-dismissal
+  - https://developer.mozilla.org/en-US/docs/Web/API/fetch
 </details>
 
 `25/06/2023`
