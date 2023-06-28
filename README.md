@@ -1,3 +1,9 @@
+`28/06/2023`
+
+<details>
+  <summary>window.opener (Just keep keyword. Updating...)</summary>
+</details>
+
 `27/06/2023`
 
 <details>
