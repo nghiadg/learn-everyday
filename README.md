@@ -1,6 +1,10 @@
 `27/06/2023`
 
 <details>
+  <summary>To review code. Let overview all files changed, after that, review related logic file changes.</summary>
+</details>
+
+<details>
   <summary>When using fetch to call API. Fetch promise does not reject on HTTP errors (404, ...etc). Instead, a then handler must check Response.ok and/or Response.status.</summary>
 
   References:
