@@ -1,7 +1,29 @@
 `28/06/2023`
 
 <details>
-  <summary>window.opener (Just keep keyword. Updating...)</summary>
+  <summary>window.opener is magic. I can call fuction of window from other window</summary>
+
+  window.opener return a reference to the window that opened the window, either with `open()`, or by navigating a link with a `target` attribute.
+
+  In other words, if window `A` open window `B`, `B.opener` return `A`.
+
+  If you want to call a function at window `A` from window `B`. you can defined this function at window `A` and use `window.opener.<this function>()` at window `B` to call it. Let see example:
+
+  Defined `customFunc` at window `A`
+
+  ```
+  const customFunc = () => {
+    // Logic code here
+  };
+
+  window.customFunc = customFunc;
+  ```
+
+  Trigger call it from window `B`
+
+  ```
+  window.opener.customFunc();
+  ```
 </details>
 
 `27/06/2023`
