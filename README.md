@@ -24,6 +24,9 @@
   `Step 04: Config user.name and user.email if you want to special profile for this project when push commit to GitHub`
 
   - Run command `git config user.name <username>` and `git config user.email "<email>"` to config special username and email push to GitHub repository. You have to run `git init` before.
+
+    References
+    - https://www.youtube.com/watch?v=vSeYsk4WYvg
     
 </details>
 
