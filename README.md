@@ -1,3 +1,32 @@
+`30/06/2023`
+
+<details>
+  <summary>Setup config SSH GitHub to use another git account the same machine Window 10</summary>
+  
+  `Step 01: Generate a key with ed25519` 
+  
+  - Access ./ssh directory and run command `ssh-keygen -t ed25519 -C "<email>". It will show a question this mean the file name you want to generate.`
+    
+  `Step 02: Open SSH Setting GitHub: Settings -> SSH and GPG keys -> Click button New SSH key`
+  
+  - Copy content of file `.pub` generated at `./ssh` directory and paste in `Key` form then click button `Add SSH key`
+    
+  `Step 03: Config git for new SSH key`
+  
+  - Create a new file with name `config`. Edit this file with template like that
+  ```
+  Host <username> github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/<name of file key generated>
+  ```
+
+  `Step 04: Config user.name and user.email if you want to special profile for this project when push commit to GitHub`
+
+  - Run command `git config user.name <username>` and `git config user.email "<email>"` to config special username and email push to GitHub repository. You have to run `git init` before.
+    
+</details>
+
 `28/06/2023`
 
 <details>
