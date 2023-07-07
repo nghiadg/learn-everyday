@@ -1,3 +1,23 @@
+`06/07/2023`
+<details>
+  <summary>Listen to events `online` or `offline` by using `window.addEventListener` to detect connections in the network</summary>
+
+  References:
+  - https://developer.mozilla.org/en-US/docs/Web/API/Window/online_event
+  - https://developer.mozilla.org/en-US/docs/Web/API/Window/offline_event
+</details>
+
+<details>
+  <summary>`useDeferredValue` in React can use to delay the value received. It is like `debounce` but `useDefferedValue` will wait for the original value to be loaded and then update for deferred value.  </summary>
+
+  References:
+  - https://react.dev/reference/react/useDeferredValue
+</details>
+
+<details>
+  <summary>When has a problem and want to explain a problem. Let's ask 5 whys to detect the original of problem.</summary>
+</details>
+
 `30/06/2023`
 
 <details>
