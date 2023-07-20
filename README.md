@@ -1,3 +1,21 @@
+`20/07/2023`
+<details>
+  <summary>Use the method scrollIntoView() to control the scroll bar position of the element's container to be visible in the viewport.</summary>
+  Example: 
+  
+  ```
+  element = document.getElementById("el");
+  element.scrollIntoView({block: "nearest"});
+  ```
+  References:
+  - https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+</details>
+
+<details>
+  <summary>Print PDF from HTML, Markdown, ...etc can use `https://gotenberg.dev`. Learn more later.</summary>
+  
+</details>
+
 `06/07/2023`
 <details>
   <summary>Listen to events `online` or `offline` by using `window.addEventListener` to detect connections in the network</summary>
