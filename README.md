@@ -1,3 +1,11 @@
+`22/07/2023`
+<details>
+  <summary>You can use the planning poker method to estimate user story points. Determine the user story with the lowest points as the base and use it to estimate another user story.</summary>
+
+  References:
+  https://planningpokeronline.com/
+</details>
+
 `20/07/2023`
 <details>
   <summary>Use the method scrollIntoView() to control the scroll bar position of the element's container to be visible in the viewport.</summary>
