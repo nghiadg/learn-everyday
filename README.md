@@ -1,3 +1,12 @@
+`23/07/2023`
+<details>
+  <summary>Hanoi University of Science and Technology is very beautiful, adorned with numerous large trees and a serene medium-sized lake near the Ta Quang Buu Library. The campus feels like a park within Ha Noi, providing an excellent environment for studying and research, which is highly beneficial for students.</summary>
+</details>
+
+<details>
+  <summary></summary>
+</details>
+
 `22/07/2023`
 <details>
   <summary>You can use the planning poker method to estimate user story points. Determine the user story with the lowest points as the base and use it to estimate another user story.</summary>
