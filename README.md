@@ -1,11 +1,13 @@
+`29/07/2023`
+<details>
+  <summary>Ref callback will re-call when re-render in React. So I can do something if I want to trigger after UI re-rendered.</summary>
+</details>
+
 `23/07/2023`
 <details>
   <summary>Hanoi University of Science and Technology is very beautiful, adorned with numerous large trees and a serene medium-sized lake near the Ta Quang Buu Library. The campus feels like a park within Ha Noi, providing an excellent environment for studying and research, which is highly beneficial for students.</summary>
 </details>
 
-<details>
-  <summary></summary>
-</details>
 
 `22/07/2023`
 <details>
