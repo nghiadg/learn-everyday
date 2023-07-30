@@ -1,3 +1,8 @@
+`30/07/2023`
+<details>
+  <summary>A string type is an array of characters. A character has 1 byte or 8 bits to store. Character just only a number is stored and matches with a formatted text endcoding such as ASCII</summary>
+</details>
+
 `29/07/2023`
 <details>
   <summary>Ref callback will re-call when re-render in React. So I can do something if I want to trigger after UI re-rendered.</summary>
