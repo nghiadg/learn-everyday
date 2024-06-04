@@ -1,3 +1,8 @@
+`04/06/2024`
+<details>
+  <summary>Use Intersection Observer to detect the visibility of target elements in the viewport. We can use it to load more content, detect user-seen messages, advertisements, etc.</summary>  
+</details>
+
 `30/07/2023`
 <details>
   <summary>A string type is an array of characters. A character has 1 byte or 8 bits to store. Character just only a number is stored and matches with a formatted text endcoding such as ASCII</summary>
