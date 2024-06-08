@@ -1,3 +1,8 @@
+`08/06/2024`
+<details>
+  <summary>Docker has its own DNS server. So we can't ping container's hostname if we haven't configured DNS for it</summary>
+</details>
+
 `04/06/2024`
 <details>
   <summary>Use Intersection Observer to detect the visibility of target elements in the viewport. We can use it to load more content, detect user-seen messages, advertisements, etc.</summary>  
